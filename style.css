@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-size:100%;
+	margin:0px;
+/* 	background-color:white; */
+ 	background-color:black; 
+}
+
+/* DIVS */
+
+div.page{
+  position: relative;
+  width:960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.header {
+  position: relative;
+  width:960px;
+  height:175px;  
+}
+
+div.logo {	
+  display: flex;
+  justify-content: center;
+}
+
+div.image {	
+  display: flex;
+  justify-content: center;
+}
+
+div.releases{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.entry {
+  position: relative;
+  float: left;
+  width: 460px;
+  display:block;
+  margin:10px;
+}
+
+/* TEXT */
+
+p.foot {	
+	text-align: right;
+	font-family: Verdana;
+	font-style: normal;
+	color:grey;
+	padding:0px;
+	margin:0px;
+}
+
+p.entry1{
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	color: white;
+	padding:0px;
+	margin:5px;
+}	
+
+p.entry2{
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	color: grey;
+	padding:0px;
+	margin:5px;
+}	
+
+p.entry3{
+	text-align: center;
+	font-family: Verdana;
+	font-style:normal;
+	font-weight: bold;
+	color: white;
+	padding:0px;
+	margin:5px;
+}	
+
+p.entry4{
+	text-align: center;
+	font-family: Verdana;
+	font-style:normal;
+	font-weight: bold;
+	color: grey;
+	padding:0px;
+	margin:5px;
+}	
+
+p.entry5{
+	text-align: center;
+	font-family: Verdana;
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+	padding:0px;
+	margin:5px;
+}	
+
+p.entry6{
+	text-align: center;
+	font-family: Verdana;
+	font-style: italic;
+	font-weight: bold;
+	color: grey;
+	padding:0px;
+	margin:5px;
+}	
+
+p.entryTitle{
+	text-align: center;
+	font-family: Verdana;
+	font-style: normal;
+	font-weight: bold;
+	color:red;
+	padding:0px;
+	margin:5px;
+}	
+	
