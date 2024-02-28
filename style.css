@@ -42,10 +42,17 @@ div.grid2{
   margin-right: auto;
 }
 
+div.grid2b{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 50px;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
 div.grid4{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 100px;
   column-gap: 100px;
   margin-left: auto;
   margin-right: auto;
