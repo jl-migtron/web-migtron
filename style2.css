@@ -36,16 +36,23 @@ div.image {
 div.grid2{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 50px;
+  row-gap: 20px;
   column-gap: 100px;
   margin-left: auto;
+  margin-right: auto;
+}
+
+div.grid2b{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 50px;
+  margin-left: 0px;
   margin-right: auto;
 }
 
 div.grid4{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 100px;
   column-gap: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -132,7 +139,7 @@ p.greyItalic{
 p.entryRed{
 	text-align: center;
 	font-family: Verdana;
-	font-style: normal;
+	font-style: italic;
 	font-weight: bold;
 	color:red;
 	padding:0px;
