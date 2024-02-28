@@ -139,7 +139,7 @@ p.greyItalic{
 p.entryRed{
 	text-align: center;
 	font-family: Verdana;
-	font-style: normal;
+	font-style: italic;
 	font-weight: bold;
 	color:red;
 	padding:0px;
