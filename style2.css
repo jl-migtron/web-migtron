@@ -12,7 +12,7 @@ body {
 
 div.page{
   position: relative;
-  width:960px;
+  width:1400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -28,18 +28,14 @@ div.logo {
   justify-content: center;
 }
 
+div.logo2 {	
+  display: flex;
+  justify-content: left;
+}
+
 div.image {	
   display: flex;
   justify-content: center;
-}
-
-div.grid2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 20px;
-  column-gap: 100px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 div.grid2b{
@@ -52,8 +48,9 @@ div.grid2b{
 
 div.grid4{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 100px;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 20px;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
 }
